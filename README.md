@@ -1,5 +1,6 @@
-# Linux Assessment Project
-
+# Linux Assessment Project                                                                                        
+                                                                                                         #Name: Mohammed Thalib TM
+                                                                                                         #date: 01-10-2025
    #Steps involved in this Project :
       
       '''
@@ -20,4 +21,9 @@
   #This Script is used to get the Current user name, Current date and the Disk usage of this system. 
 
   #Screenshots :
+   ![image alt](https://github.com/thalib-dev/devops-intern-final/blob/9b2f9df284fab543de4a2f693964a491826b6d2d/screenshots/linux.png)
+
+   ![image alt](https://github.com/thalib-dev/devops-intern-final/blob/9b2f9df284fab543de4a2f693964a491826b6d2d/screenshots/linux%201.png)
+
+   ![image alt](https://github.com/thalib-dev/devops-intern-final/blob/9b2f9df284fab543de4a2f693964a491826b6d2d/screenshots/linux%202.png)
     
