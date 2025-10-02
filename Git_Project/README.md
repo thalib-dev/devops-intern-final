@@ -20,6 +20,7 @@
   #this is a very basic script in python.
 
   #Screenshots :
+  
    ![image alt](https://github.com/thalib-dev/devops-intern-final/blob/61cf6182fa6cff9ae76f8ebc5b882045f91acf5c/Git_Project/Screenshots/git.png)
 
    ![image alt](https://github.com/thalib-dev/devops-intern-final/blob/61cf6182fa6cff9ae76f8ebc5b882045f91acf5c/Git_Project/Screenshots/git1.png)
