@@ -9,7 +9,7 @@
                  Change directory to the created path "cd /path/to/directory"
         Step 3 : Create sytem.sh file using "vim system.sh"
         Step 4 : Write the Script mentioned below
-                 Sreipt : " #!/bin/bash
+                 Script : " #!/bin/bash
                            echo "Current User: $(whoami)"
                            echo "Date: $(date)"
                            echo "Disk Usage: $(df -h)" "
