@@ -1,1 +1,23 @@
 # Final Assessment Projects
+
+Step 1: Start Loki using Docker
+
+docker run -d --name=loki -p 3100:3100 grafana/loki:2.9.0 \
+  -config.file=/etc/loki/local-config.yaml
+
+Step 2: Forward container logs to Loki using Promtail
+
+docker run -d --name=promtail -v /var/log:/var/log \
+  -v /var/lib/docker/containers:/var/lib/docker/containers:ro \
+  -v /etc/promtail:/etc/promtail \
+  grafana/promtail:2.9.0 \
+  -config.file=/etc/promtail/promtail-docker-config.yaml
+
+Step 3: Run a test container (example: hello-devops)
+
+docker run --name hello-test hello-devops:latest
+
+Step 4: View logs from Loki API (filtering by job name)
+
+curl "http://localhost:3100/loki/api/v1/query?query={job=\"dockerlogs\"}"
+
